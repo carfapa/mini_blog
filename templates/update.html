@@ -1,0 +1,41 @@
+{% extends "index.html" %}
+
+{% block content %}
+<main>
+     <div class="container">
+         <div class="row">
+             <div class="col col-ms-12">
+                <div class="jumbotron">
+                     <h1 class="display-4">Crea un nuevo blog</h1>
+                     <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias dolorem pariatur qui dolor magnam in ipsam, dolore iusto omnis voluptas.</p>
+                     <hr class="my-4">
+                     <p>Aqui encontraras los mejores blog</p>
+                </div>
+             </div>
+             <div class="col col-ms-12">
+                <form id="form-contact" class="card p-3" method="POST" enctype="multipart/form-data">
+                    <div class="form-group">
+                        <input type="number" class=" form-control" placeholder="ID" id="id_blog" name="id_blog" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class=" form-control" placeholder="Nuevo titulo" id="n_title" name="n_title" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea cols="30" rows="8" class="form-control" placeholder="Nueva description" id="descrip" name="descrip" required></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="file" class=" form-control" placeholder="alguna imagen." id="img" name="img">
+                        <!-- <input type="file" name="img" id="img" placeholder="imagen" class="form-control"> -->
+                    </div>
+                    <div class="form-group">
+                        <textarea cols="30" rows="8" class="form-control" placeholder="Nuevo parrafo" id="paragram" name="paragram" required></textarea>
+                    </div>
+                    <div class="form-group">
+                       <button type="submit" class="form-control btn btn-outline-primary">Enviar</button>
+                    </div>
+               </form>
+             </div>
+         </div>
+     </div>
+</main>
+{% endblock %}

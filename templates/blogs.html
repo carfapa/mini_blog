@@ -1,0 +1,27 @@
+{% extends "index.html" %}
+
+{% block content %}
+<main>
+     <div class="container">
+         <div class="row">
+             <div class="col col-ms-12">
+                <div class="jumbotron">
+                     <h1 class="display-4">Binevenido a mi pagina de Blog</h1>
+                     <p class="lead">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias dolorem pariatur qui dolor magnam in ipsam, dolore iusto omnis voluptas.</p>
+                     <hr class="my-4">
+                     <p>Aqui encontraras los mejores blog</p>
+                </div>
+             </div>
+             <div class="col col-ms-12">
+                  <div class="list-group">
+                      {% for blog_i in dtblogs %}
+                       <a href="{{url_for('blog', _id=blog_i[0])}}" class="list-group-item list-group-item-action"> {{blog_i[1]}}</a>
+                      {% endfor %}
+                  </div>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni non magnam nobis ipsum voluptatibus? Voluptate laudantium doloremque repudiandae eos optio.
+             </div>
+         </div>
+     </div>
+</main>
+{% endblock %}
+

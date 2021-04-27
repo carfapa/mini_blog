@@ -1,0 +1,25 @@
+{% extends "index.html" %}
+
+{% block my_style %}
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+		
+	</style>
+{% endblock %}
+
+{% block content %}
+<main class="w-100">
+
+	<div class="container">
+		<div class="jumbotron">
+			<h1 class="display-4 text-center">{{dtblog[0]}}</h1>
+			<p class="lead text-center">{{dtblog[1]}}</p>
+			<center><img src="{{url_for('static', filename=dtblog[3])}}" alt="" width="50%" height="50%"></center>
+		</div>
+	</div>
+</main>
+{% endblock %}

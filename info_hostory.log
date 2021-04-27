@@ -1,0 +1,10 @@
+2021-04-26 21:31:27,260 - P_INFO - DEBUG  connection.py _line: 14 - Conexion obtenida exitosamente: <sqlite3.Connection object at 0x000002B723209A80>
+2021-04-26 21:31:27,260 - P_INFO - DEBUG  connection.py _line: 23 - cursor obtneido exitosamente:<sqlite3.Cursor object at 0x000002B7232319D0>
+2021-04-26 21:35:27,904 - P_INFO - DEBUG  connection.py _line: 14 - Conexion obtenida exitosamente: <sqlite3.Connection object at 0x000002B723209C60>
+2021-04-26 21:35:27,904 - P_INFO - DEBUG  connection.py _line: 23 - cursor obtneido exitosamente:<sqlite3.Cursor object at 0x000002B7234E00A0>
+2021-04-26 21:36:53,007 - P_INFO - DEBUG  connection.py _line: 14 - Conexion obtenida exitosamente: <sqlite3.Connection object at 0x000002B723209E40>
+2021-04-26 21:36:53,007 - P_INFO - DEBUG  connection.py _line: 23 - cursor obtneido exitosamente:<sqlite3.Cursor object at 0x000002B723687F10>
+2021-04-26 21:40:23,125 - P_INFO - DEBUG  connection.py _line: 14 - Conexion obtenida exitosamente: <sqlite3.Connection object at 0x000002B8DB429A80>
+2021-04-26 21:40:23,125 - P_INFO - DEBUG  connection.py _line: 23 - cursor obtneido exitosamente:<sqlite3.Cursor object at 0x000002B8DB4519D0>
+2021-04-26 21:40:23,125 - P_INFO - DEBUG  connection.py _line: 32 - cursor cerrado exitosamente:<sqlite3.Cursor object at 0x000002B8DB4519D0>
+2021-04-26 21:40:23,125 - P_INFO - DEBUG  connection.py _line: 37 - conexion cerrada exitosamente:<sqlite3.Cursor object at 0x000002B8DB4519D0>
